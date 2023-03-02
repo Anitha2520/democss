@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function validation(){
+           alert("form validation");
+        }
+    </script>
+        <form onsubmit="validation()" method="post">
+            <div style="border:5px solid green; padding: 10px 10px;width:20%; margin: 5px 5px; background-color: aqua;">
+        <label for="firstname" style="color:black;">Studentname:</label><br>
+        <input type="sname"  name="sname" id="sname" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password" required><br><br>
+        <label for="dob">DOB:</label><br>
+        <input type="date" name="dob" id="dob"><br><br>
+        <input type="submit" value="Submit">
+        </div>
+
+        </form>
+    
+</body>
+</html>
